@@ -1,0 +1,53 @@
+<script>
+    console.log(window.pageXOffset)
+</script>
+
+<article>
+    <section>
+        <div class="container">
+            <h1 class="title">CONTACTS</h1>
+            <div class="row justify-content-center">
+                <div class="form_align col-md-6 col-sm-12">
+                    <span class="subtitle"><b><i>Contact or send an e-mail to cesarreis521@gmail.com</i></b></span>
+
+                    <form ngNoForm action="https://api.staticforms.xyz/submit" method="post" (submit)="enviar()">
+                        <input type="hidden" name="accessKey" value="583c5904-9d7f-4d5c-955d-97996d506d01">
+
+                        <div class="align">
+                            <label for="email"></label><span id="name">Name:</span><br>
+                            <input type="text" name="name" class="name"
+                                placeholder="Your Full Name" required>
+                        </div>
+
+                        <div class="align">
+                            <label for="email"><span id="email">E-mail:</span></label><br>
+                            <input type="email" name="email" class="email"
+                                placeholder="YourEmail@example.com" required>
+                        </div>
+
+                        <div class="align">
+                            <label for=""><span id="message">Message:</span><br></label><br>
+                            <textarea name="message" class="message" rows="6"
+                                placeholder="Write a message..." required></textarea>
+                        </div>
+                        <button class="btn btn1 btn-large btn-outline-info" type="submit">
+                            <b>Send Message <i class="fa fa-send"></i></b>
+                        </button> <br>
+                        <span class="conf" *ngIf="msg"><b><i>Message sent successfully.</i></b></span>
+                        <input type="hidden" name="redirectTo"  value="http://localhost:4200/#contacts">
+                    </form>
+                    
+                </div>
+                <div class="col-md-6 contour">
+                    <img src="../../../assets/DevCesar.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="returnTop ">
+            <a href="#home" class="btn btn2 btn-small btn-outline-info rotate">
+                <b>Return Top <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
+            </a>
+        </div>
+    </section>
+</article>

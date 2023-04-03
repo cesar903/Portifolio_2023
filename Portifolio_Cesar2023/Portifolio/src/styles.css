@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #cacaca;
+}
+body::-webkit-scrollbar-track {
+    background: #000000;
+}
+body::-webkit-scrollbar-track-piece {
+    background: #000000;
+}
+body::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-corner {
+    background: #000000;
+    border-radius: 5px;
+}
+.form-comment textarea::-webkit-resizer {
+    border: 1px #cacaca dashed;
+}
+html{
+    scroll-behavior: smooth;
+}
