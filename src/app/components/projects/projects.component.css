@@ -63,11 +63,6 @@ p{
         height: 100%;
         box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.44);
     }
-    .more{
-        text-decoration: none;
-        color: #1480c4;
-        margin-top: 0rem;
-    }
 }
 /*Scren Large*/
 @media (max-width: 991px){ 
@@ -78,13 +73,12 @@ p{
         margin-bottom: 6rem;
         box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
     }
-    .more{
-        text-decoration: none;
-        color: #1480c4;
-        margin-top: 0rem;
-    }
 }
-
+.more{
+    text-decoration: none;
+    color: #1480c4;
+    margin-top:0;
+}
 .more:hover{
     color: #f20ff6;
 }
