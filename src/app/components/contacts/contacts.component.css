@@ -1,9 +1,9 @@
 article {
     background-color: #151515;
     width: 100%;
-    height: 100vh;
     padding-top: 6rem;
     margin-top: -6px;
+    height: 100%;
 }
 section{
     height: 100vh;
@@ -92,7 +92,7 @@ section{
 /*Scren Small*/
 @media (max-width: 769px) {
     img {
-        display: none;
+        width: 80%;
     }
 }
 
@@ -114,7 +114,8 @@ section{
 
 .returnTop {
     text-align: end;
-    padding-bottom: 1rem;
+    border: solid rgb(98, 255, 0) 2px;
+    width: 100%;
 }
 
 .rotate {
@@ -124,9 +125,5 @@ section{
 
 .conf{
     color: #63c414;
-    font-size: 1rem;
-}
-.confError{
-    color: #c41414;
     font-size: 1rem;
 }
