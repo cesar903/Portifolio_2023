@@ -1,0 +1,74 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+header{
+    background-color: rgba(0, 0, 0, 0.903);
+    height: 4rem;
+    padding: 0;
+    border: solid rgb(0, 0, 0) 4px;
+    text-align: center;
+}
+/*Screen small*/
+@media (max-width: 750px){
+    #logo{
+        float: left;
+        text-align: center;
+        width: 30%;
+    }
+    img{
+        margin-top: 5px;
+        width: 4rem;
+        height: 2rem;
+    }
+    header{
+        height: 3rem;
+        padding: 0;
+    }
+    #links{
+        text-decoration: none ;
+        font-size: 0.5rem ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+        background-color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    a{
+        margin-left: 0;
+        padding: 0;
+    }
+    
+}
+/*Screen Large*/
+@media (min-width: 751px){
+    #logo{
+        float: left;
+        margin-left: 7rem;
+        margin-top: 0.5rem;
+    }
+    img{
+        width: 5rem;
+        height: 3rem;
+    }
+    #links{
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        margin-top: 20px;
+        position: absolute;
+        right: 7rem;
+    }
+    a{
+        margin-left: 2rem;
+    }
+}
+
+a{
+    color: gray;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+a:hover{
+    transition-delay: 0.7s;
+    color: #1480c4;
+}

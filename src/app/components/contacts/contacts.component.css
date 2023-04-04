@@ -1,0 +1,129 @@
+article {
+    background-color: #151515;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    margin-top: -6px;
+}
+
+.title {
+    text-align: center;
+    color: #1480c4;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 3rem;
+    text-shadow:
+        0 0 7px #1480c4,
+        0 0 10px #1480c4,
+        0 0 21px #1480c4,
+        0 0 42px #1480c4,
+        0 0 82px #1480c4,
+        0 0 92px #1480c4,
+        0 0 102px #1480c4,
+        0 0 151px #1480c4;
+}
+
+.subtitle {
+    color: #cacaca;
+}
+
+.form_align {
+    color: #cacaca;
+    text-align: center;
+}
+
+#name,
+#email,
+#message {
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+.name,
+.email {
+    background-color: transparent;
+    border: solid rgba(202, 202, 202, 0.556) 0.5px;
+    width: 100%;
+    padding: 5px;
+    color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
+.message {
+    background-color: transparent;
+    border: solid #cacaca8e 0.5px;
+    width: 100%;
+    padding: 5px;
+    color: rgb(202, 202, 202);
+    border-radius: 5px;
+    resize: none;
+}
+
+.align {
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.btn1 {
+    color: #f20ff6;
+    border: #f20ff6 solid 1px;
+    margin-bottom: 0.625rem;
+}
+
+.btn1:hover {
+    background-color: #f20ff6;
+    color: black;
+}
+
+.btn2{
+    margin-bottom: 2rem;
+}
+
+.contour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Scren Small*/
+@media (max-width: 769px) {
+    img {
+        display: none;
+    }
+}
+
+/*Scren Medium*/
+@media (max-width: 998px) {
+    img {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+/*Screen Large*/
+@media (min-width: 997px) {
+    img {
+        width: 60%;
+        text-align: center;
+    }
+}
+
+.returnTop {
+    text-align: end;
+    padding-bottom: 1rem;
+}
+
+.rotate {
+    transform: rotate(270deg);
+    font-size: 0.563rem;
+}
+
+.conf{
+    color: #63c414;
+    font-size: 1rem;
+}
+.confError{
+    color: #c41414;
+    font-size: 1rem;
+}
