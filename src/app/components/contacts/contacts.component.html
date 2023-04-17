@@ -36,8 +36,8 @@
                     <img src="../../../assets/DevCesar.svg" alt="">
                 </div>
             </div>
-            <div class="returnTop col-12">
-                <a href="#home" class="btn btn2 btn-small btn-outline-info rotate">
+            <div class="returnTop fixed-bottom">
+                <a class="btn btn-small btn-outline-info rotate back-to-top" (click)="scrollToTop()" *ngIf="showButton">
                     <b>Return Top <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
                 </a>
             </div>

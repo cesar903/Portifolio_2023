@@ -3,10 +3,7 @@ article {
     width: 100%;
     padding-top: 6rem;
     margin-top: -6px;
-    height: 120vh;
-}
-section{
-    height: 100vh;
+    padding-bottom: 2rem;
 }
 
 .title {
@@ -79,9 +76,7 @@ section{
     color: black;
 }
 
-.btn2{
-    margin-bottom: 2rem;
-}
+
 
 .contour {
     display: flex;
@@ -94,6 +89,10 @@ section{
     img {
         width: 80%;
     }
+    article {
+        padding-top: 2rem;
+    }
+    
 }
 
 /*Scren Medium*/
@@ -101,6 +100,9 @@ section{
     img {
         width: 80%;
         text-align: center;
+    }
+    article {
+        padding-top: 4rem;
     }
 }
 
@@ -110,12 +112,14 @@ section{
         width: 60%;
         text-align: center;
     }
+    article {
+        padding-top: 8rem;
+    }
 }
 
 .returnTop {
     text-align: end;
     width: 100%;
-    margin-bottom: 2rem;
 }
 
 .rotate {
@@ -126,4 +130,9 @@ section{
 .conf{
     color: #63c414;
     font-size: 1rem;
+}
+
+
+.back-to-top{
+    margin-bottom: 2rem;
 }
