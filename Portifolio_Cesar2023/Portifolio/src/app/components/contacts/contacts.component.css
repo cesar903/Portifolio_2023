@@ -1,9 +1,9 @@
 article {
     background-color: #151515;
     width: 100%;
-    height: 100%;
     padding-top: 6rem;
     margin-top: -6px;
+    padding-bottom: 2rem;
 }
 
 .title {
@@ -76,9 +76,7 @@ article {
     color: black;
 }
 
-.btn2{
-    margin-bottom: 2rem;
-}
+
 
 .contour {
     display: flex;
@@ -89,8 +87,12 @@ article {
 /*Scren Small*/
 @media (max-width: 769px) {
     img {
-        display: none;
+        width: 80%;
     }
+    article {
+        padding-top: 2rem;
+    }
+    
 }
 
 /*Scren Medium*/
@@ -98,6 +100,9 @@ article {
     img {
         width: 80%;
         text-align: center;
+    }
+    article {
+        padding-top: 4rem;
     }
 }
 
@@ -107,11 +112,14 @@ article {
         width: 60%;
         text-align: center;
     }
+    article {
+        padding-top: 8rem;
+    }
 }
 
 .returnTop {
     text-align: end;
-    padding-bottom: 1rem;
+    width: 100%;
 }
 
 .rotate {
@@ -123,7 +131,8 @@ article {
     color: #63c414;
     font-size: 1rem;
 }
-.confError{
-    color: #c41414;
-    font-size: 1rem;
+
+
+.back-to-top{
+    margin-bottom: 2rem;
 }

@@ -12,7 +12,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
-import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import {TranslateModule} from '@ngx-translate/core';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    TranslateModule.forRoot({defaultLanguage: 'en'})
   ],
   providers: [],
   bootstrap: [AppComponent]

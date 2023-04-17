@@ -1,7 +1,3 @@
-<script>
-    console.log(window.pageXOffset)
-</script>
-
 <article>
     <section>
         <div class="container">
@@ -14,40 +10,39 @@
                         <input type="hidden" name="accessKey" value="583c5904-9d7f-4d5c-955d-97996d506d01">
 
                         <div class="align">
-                            <label for="email"></label><span id="name">Name:</span><br>
-                            <input type="text" name="name" class="name"
-                                placeholder="Your Full Name" required>
+                            <label for="lname"><span id="name">Name:</span></label><br>
+                            <input type="text" name="name" class="name" id="lname" placeholder="Your Full Name" required>
                         </div>
 
                         <div class="align">
-                            <label for="email"><span id="email">E-mail:</span></label><br>
-                            <input type="email" name="email" class="email"
-                                placeholder="YourEmail@example.com" required>
+                            <label for="lemail"><span id="email">E-mail:</span></label><br>
+                            <input type="email" name="email" class="email" id="lemail" placeholder="YourEmail@example.com" required>
                         </div>
 
                         <div class="align">
-                            <label for=""><span id="message">Message:</span><br></label><br>
-                            <textarea name="message" class="message" rows="6"
-                                placeholder="Write a message..." required></textarea>
+                            <label for="lmessage"><span id="message">Message:</span><br></label><br>
+                            <textarea name="message" id="lmessage" class="message" rows="6" placeholder="Write a message..."
+                                required></textarea>
                         </div>
                         <button class="btn btn1 btn-large btn-outline-info" type="submit">
                             <b>Send Message <i class="fa fa-send"></i></b>
                         </button> <br>
                         <span class="conf" *ngIf="msg"><b><i>Message sent successfully.</i></b></span>
-                        <input type="hidden" name="redirectTo"  value="http://localhost:4200/#contacts">
+                        <input type="hidden" name="redirectTo" value="https://portifolio-cesarreis.netlify.app/#contacts">
                     </form>
-                    
+
                 </div>
-                <div class="col-md-6 contour">
+                <div class="col-md-6 col-sm-12 contour">
                     <img src="../../../assets/DevCesar.svg" alt="">
                 </div>
             </div>
+            <div class="returnTop fixed-bottom">
+                <a class="btn btn-small btn-outline-info rotate back-to-top" (click)="scrollToTop()" *ngIf="showButton">
+                    <b>Return Top <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
+                </a>
+            </div>
         </div>
 
-        <div class="returnTop ">
-            <a href="#home" class="btn btn2 btn-small btn-outline-info rotate">
-                <b>Return Top <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
-            </a>
-        </div>
+        
     </section>
 </article>
