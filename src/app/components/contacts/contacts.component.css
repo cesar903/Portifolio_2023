@@ -76,6 +76,17 @@ article {
     color: black;
 }
 
+.returnTop {
+    text-align: end;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.back-to-top{
+    margin-bottom: 2rem;
+}
+
+
 
 
 .contour {
@@ -117,11 +128,6 @@ article {
     }
 }
 
-.returnTop {
-    text-align: end;
-    width: 100%;
-}
-
 .rotate {
     transform: rotate(270deg);
     font-size: 0.563rem;
@@ -133,6 +139,3 @@ article {
 }
 
 
-.back-to-top{
-    margin-bottom: 2rem;
-}
