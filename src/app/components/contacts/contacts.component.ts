@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { HttpClient } from '@angular/common/http'
 import { HostListener } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -13,7 +12,21 @@ export class ContactsComponent implements OnInit {
   msg: boolean = false;
   showButton = false;
 
-  constructor() { }
+  constructor(private translate: TranslateService) {
+    translate.addLangs(['en', 'pt']);
+
+    const browserLang = translate.getBrowserLang();
+    console.log(browserLang)
+
+    if (browserLang == 'pt') {
+      translate.use('pt')
+    } else if (browserLang == 'en') {
+      translate.use('en')
+    } else {
+      translate.setDefaultLang('en');
+    }
+
+  }
 
   ngOnInit(): void { }
 

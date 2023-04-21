@@ -1,36 +1,35 @@
 <article>
     <section>
         <div class="container">
-            <h1 class="title">CONTACTS</h1>
+            <h1 class="title">{{'titleContacts' | translate}}</h1>
             <div class="row justify-content-center">
                 <div class="form_align col-md-6 col-sm-12">
-                    <span class="subtitle"><b><i>Contact or send an e-mail to cesarreis521@gmail.com</i></b></span>
+                    <span class="subtitle"><b><i>{{'subTitleContacts' | translate}}</i></b></span><br><br>
 
                     <form ngNoForm action="https://api.staticforms.xyz/submit" method="post" (submit)="enviar()">
                         <input type="hidden" name="accessKey" value="583c5904-9d7f-4d5c-955d-97996d506d01">
 
                         <div class="align">
-                            <label for="lname"><span id="name">Name:</span></label><br>
-                            <input type="text" name="name" class="name" id="lname" placeholder="Your Full Name" required>
+                            <label for="lname"><span id="name">{{"name" | translate}}:</span></label><br>
+                            <input type="text" name="name" class="name" id="lname" placeholder="{{'PlaceName' | translate}}" required>
                         </div>
 
                         <div class="align">
-                            <label for="lemail"><span id="email">E-mail:</span></label><br>
-                            <input type="email" name="email" class="email" id="lemail" placeholder="YourEmail@example.com" required>
+                            <label for="lemail"><span id="email">{{"email" | translate}}:</span></label><br>
+                            <input type="email" name="email" class="email" id="lemail" placeholder="{{'PlaceEmail' | translate}}" required>
                         </div>
 
                         <div class="align">
-                            <label for="lmessage"><span id="message">Message:</span><br></label><br>
-                            <textarea name="message" id="lmessage" class="message" rows="6" placeholder="Write a message..."
+                            <label for="lmessage"><span id="message">{{"message" | translate}}:</span><br></label><br>
+                            <textarea name="message" id="lmessage" class="message" rows="6" placeholder="{{'PlaceMessage' | translate}}"
                                 required></textarea>
                         </div>
                         <button class="btn btn1 btn-large btn-outline-info" type="submit">
-                            <b>Send Message <i class="fa fa-send"></i></b>
+                            <b>{{'submit' | translate}} <i class="fa fa-send"></i></b>
                         </button> <br>
-                        <span class="conf" *ngIf="msg"><b><i>Message sent successfully.</i></b></span>
+                        <span class="conf" *ngIf="msg"><b><i>{{'info' | translate}}</i></b></span>
                         <input type="hidden" name="redirectTo" value="https://portifolio-cesarreis.netlify.app/#contacts">
                     </form>
-
                 </div>
                 <div class="col-md-6 col-sm-12 contour">
                     <img src="../../../assets/DevCesar.svg" alt="">
@@ -38,7 +37,7 @@
             </div>
             <div class="returnTop fixed-bottom">
                 <a class="btn btn-small btn-outline-info rotate back-to-top" (click)="scrollToTop()" *ngIf="showButton">
-                    <b>Return Top <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
+                    <b>{{'return' | translate}} <i class="fa fa-arrow-right" aria-hidden="true"></i></b>
                 </a>
             </div>
         </div>
