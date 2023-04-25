@@ -1,11 +1,10 @@
-@import '~bootstrap/dist/css/bootstrap.min.css';
-
 header{
     background-color: rgba(0, 0, 0, 0.903);
     height: 4rem;
     padding: 0;
     border: solid rgb(0, 0, 0) 4px;
     text-align: center;
+    user-select: none;
 }
 /*Screen small*/
 @media (max-width: 750px){

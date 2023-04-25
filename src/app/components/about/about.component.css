@@ -3,6 +3,7 @@ article{
     background-image: linear-gradient(black, #151515);
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    user-select: none;
 }
 #about{
     text-align: center;

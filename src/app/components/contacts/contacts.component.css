@@ -4,6 +4,7 @@ article {
     padding-top: 6rem;
     margin-top: -6px;
     padding-bottom: 2rem;
+    user-select: none;
 }
 
 .title {
