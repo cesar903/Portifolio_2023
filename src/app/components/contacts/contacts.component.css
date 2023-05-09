@@ -83,12 +83,9 @@ article {
     margin-bottom: 2rem;
 }
 
-.back-to-top{
+.back-to-top {
     margin-bottom: 2rem;
 }
-
-
-
 
 .contour {
     display: flex;
@@ -101,10 +98,11 @@ article {
     img {
         width: 80%;
     }
+
     article {
         padding-top: 2rem;
     }
-    
+
 }
 
 /*Scren Medium*/
@@ -113,6 +111,7 @@ article {
         width: 80%;
         text-align: center;
     }
+
     article {
         padding-top: 4rem;
     }
@@ -124,6 +123,7 @@ article {
         width: 60%;
         text-align: center;
     }
+
     article {
         padding-top: 8rem;
     }
@@ -134,9 +134,7 @@ article {
     font-size: 0.563rem;
 }
 
-.conf{
+.conf {
     color: #63c414;
     font-size: 1rem;
 }
-
-
