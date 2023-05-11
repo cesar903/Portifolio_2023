@@ -82,8 +82,6 @@
         color: white;
         width: 50%;
         font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-        height: 90vh;
-        padding-top: 15%;
     }
     .subdev{
         font-size: 3rem;
@@ -126,6 +124,9 @@ a{
     height: 10vh;
     color: azure;
     font-size: 1.5rem;
+}
+.back{
+    height: 90vh;
 }
 
 
