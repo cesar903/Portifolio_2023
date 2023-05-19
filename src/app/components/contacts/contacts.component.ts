@@ -31,8 +31,18 @@ export class ContactsComponent implements OnInit {
   ngOnInit(): void { }
 
   enviar() {
+  
+    this.translate.addLangs(['en', 'pt']);
+    const browserLang = this.translate.getBrowserLang();
+    
+    if (browserLang == 'pt') {
+      alert("Enviado com Sucesso!")
+    } else if (browserLang == 'en') {
+      alert("SUCCESSFULLY SENT")
+    } else {
+      alert("SUCCESSFULLY SENT")
+    }
     this.msg = true
-    alert("SUCCESSFULLY SENT")
     return true
   }
 
