@@ -68,6 +68,6 @@ a{
 }
 
 a:hover{
-    transition-delay: 0.7s;
     color: #1480c4;
+    transition: 500ms linear;
 }

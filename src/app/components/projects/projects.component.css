@@ -83,6 +83,8 @@ p {
         text-align: start;
         height: 100%;
         box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+        transition: 500ms linear;
+        
     }
 
     .body_card:hover {
@@ -101,4 +103,11 @@ p {
 
 .more:hover {
     color: #f20ff6;
+}
+
+.btn{
+    transition: 500ms linear;
+}
+.btn:hover{
+    transition: 500ms linear;
 }

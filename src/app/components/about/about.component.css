@@ -97,9 +97,15 @@ article {
 }
 
 img:hover {
-    top: -5px;
-    box-shadow: 0 5px 5px #f20ff6;
-    transition: all .2s ease-in-out
+    transform: scale(1.1);
+    transition: 500ms linear;
+    box-shadow: rgba(0, 0, 0, 0.74) 0px 35px 50px;
+    border: #1480c4 solid 2px;
+    margin-bottom: 3rem;
+}
+
+img{
+    transition: 500ms linear;
 }
 
 #subdev {
@@ -108,4 +114,11 @@ img:hover {
 
 .curriculum {
     margin-top: 1rem;
+}
+
+.btn{
+    transition: 500ms linear;
+}
+.btn:hover{
+    transition: 500ms linear;
 }

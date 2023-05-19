@@ -138,3 +138,10 @@ article {
     color: #63c414;
     font-size: 1rem;
 }
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #151515 inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color:rgb(202, 202, 202) !important;
+}
