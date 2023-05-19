@@ -104,7 +104,7 @@ img:hover {
     margin-bottom: 3rem;
 }
 
-img{
+img {
     transition: 500ms linear;
 }
 
@@ -116,9 +116,10 @@ img{
     margin-top: 1rem;
 }
 
-.btn{
+.btn {
     transition: 500ms linear;
 }
-.btn:hover{
+
+.btn:hover {
     transition: 500ms linear;
 }
