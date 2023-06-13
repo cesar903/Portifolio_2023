@@ -97,11 +97,9 @@ article {
 }
 
 img:hover {
-    transform: scale(1.1);
     transition: 500ms linear;
     box-shadow: rgba(0, 0, 0, 0.74) 0px 35px 50px;
     border: #1480c4 solid 2px;
-    margin-bottom: 3rem;
 }
 
 img {
