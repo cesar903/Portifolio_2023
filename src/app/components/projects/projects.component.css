@@ -61,7 +61,6 @@ p {
         text-align: start;
         box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
         filter: brightness(130%);
-        border: solid #1480c4 2px;
         margin-bottom: 2rem;
     }
 
@@ -76,10 +75,11 @@ p {
         transition: 500ms linear;
         filter: none;
         padding: 2px;
-        background: linear-gradient(to left, #1480c4 0%,  #f20ff6  100%);
+
         .image {
             filter: none;
         }
+
         .image {
             filter: none;
         }
@@ -96,10 +96,7 @@ p {
         filter: brightness(50%);
         transition: 500ms linear;
     }
-    .teste{
-        background-color:  #151515;
-        height: 100%;
-    }
+
     .body_card {
         color: rgb(202, 202, 202);
         text-align: start;
@@ -116,7 +113,7 @@ p {
         transition: 500ms linear;
         filter: none;
         padding: 2px;
-        background: linear-gradient(to left, #1480c4 0%,  #f20ff6  100%);
+
         .image {
             filter: none;
         }
@@ -135,13 +132,13 @@ p {
 
 .btn {
     transition: 500ms linear;
-    color: #1480c4 ;
-    border: 1px solid #1480c4 ;
+    color: #1480c4;
+    border: 1px solid #1480c4;
 }
 
 .btn:hover {
     transition: 500ms linear;
-    color: #151515 ;
-    border: 1px solid #1480c4 ;
+    color: #151515;
+    border: 1px solid #1480c4;
     background-color: #1480c4;
 }
