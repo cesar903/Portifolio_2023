@@ -6,6 +6,9 @@
     background: url("../../../assets/back.gif") no-repeat fixed;
     background-size: cover;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #traparent {

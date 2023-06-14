@@ -4,11 +4,15 @@ article {
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #about {
     text-align: center;
     padding-top: 6rem;
+    
 }
 
 .name {

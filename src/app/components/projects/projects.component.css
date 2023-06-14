@@ -4,6 +4,9 @@ article {
     padding-top: 6rem;
     margin-top: -6px;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
